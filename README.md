@@ -2,27 +2,13 @@
 
 Welcome to the Intel Industrial IoT Workshop. In this workshop, we will explore Industry 4.0 technologies through lectures and hands on labs. By the end of the workshop, you should have a solid understanding of different Industry 4.0 technologies and have some working ideas of how to implement them in your place of business.
 
-## Quick Start EIS 2.1
-
-```bash
-xhost +
-sudo su
-tar zxvf IEdgeInsights-2.3.tar.gz
-cd IEdgeInsights/docker_setup/provision
-docker rm -f $(docker ps -a -q)
-./provision_eis.sh ../docker-compose.yml
-cd ..
-docker-compose up --build
-
-```
-
 ## How Do I Use the Lab Material
 
 The links below will guide the workshop attendee through the slides, videos and labs in the Intel Industrial IoT Workshop.
 
-## Schedule - Day 1
+## Schedule
 
-| Jan 23rd           |                                                                      |
+|           |                                                                      |
 |-----| ------------------------------------------------------------------------------- | 
 | Doors Open for Badge Pickup                                                     |                                                                                                 |
 | Presentation: Intel for Industry 4.0                 | [Slides](./presentations/2.1/Intel-for-Industrial-IoT.pdf)            |
